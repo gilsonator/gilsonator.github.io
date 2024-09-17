@@ -1,0 +1,27 @@
+{
+  "name": "gilsonator",
+  "version": "1.0.0",
+  "description": "GitHub Repositories outlining my skills.",
+  "main": "index.html",
+  "directories": {
+    "CrimeBusters": "CrimeBusters"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilsonator/gilsonator.github.io"
+  },
+  "author": "David Gilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gilsonator/gilsonator.github.io/issues"
+  },
+  "homepage": "https://github.com/gilsonator/gilsonator.github.io#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "prettier": "3.3.3"
+  }
+}
