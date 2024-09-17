@@ -1,0 +1,3 @@
+[submodule "CrimeBusters"]
+	path = CrimeBusters
+	url = https://github.com/gilsonator/CrimeBusters
