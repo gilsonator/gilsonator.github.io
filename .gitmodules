@@ -2,7 +2,7 @@
 	path = CrimeBusters
 	url = https://github.com/gilsonator/CrimeBusters
 	branch = main
-[submodule "GoogleMaps"]
-	path = GoogleMaps
-	url = https://github.com/gilsonator/GoogleMaps
+[submodule "PlayGround"]
+	path = PlayGround
+	url = https://github.com/gilsonator/PlayGround
 	branch = main
