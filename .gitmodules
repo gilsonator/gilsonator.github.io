@@ -6,3 +6,7 @@
 	path = PlayGround
 	url = https://github.com/gilsonator/PlayGround
 	branch = main
+[submodule "PropNav"]
+	path = PropNav
+	url = https://github.com/gilsonator/PropNav
+	branch = main
