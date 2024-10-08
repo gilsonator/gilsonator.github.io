@@ -1,111 +1,202 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="icon" type="png" href="icons/favicon.png" />
-    <link rel="icon" type="png" href="icons/android-chrome-192x192.png" />
-    <link rel="icon" type="png" href="icons/android-chrome-512x512.png" />
-    <link rel="icon" type="png" href="icons/apple-touch-icon.png" />
-    <link rel="icon" type="png" href="icons/favicon-16x16.png" />
-    <link rel="icon" type="png" href="icons/favicon-32x32.png" />
 
-    <title>David Gilson Project Demos</title>
-    <style>
-      body {
-        font-family: 'Roboto', Arial, sans-serif;
-        margin: 10px;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="icon" type="png" href="icons/favicon.png" />
+  <link rel="icon" type="png" href="icons/android-chrome-192x192.png" />
+  <link rel="icon" type="png" href="icons/android-chrome-512x512.png" />
+  <link rel="icon" type="png" href="icons/apple-touch-icon.png" />
+  <link rel="icon" type="png" href="icons/favicon-16x16.png" />
+  <link rel="icon" type="png" href="icons/favicon-32x32.png" />
 
-      b {
-        font-weight: 700;
-      }
+  <title>David Gilson Project Demos</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
 
-      #links img {
-        vertical-align: middle;
-      }
+    p {
+      margin-block-end: -0.1em;
+    }
 
-      .footer {
-        color: #9D9D9D;
+    h1 {
+      margin: 0;
+    }
+
+    h2 {
+      margin-block-end: -0.1em;
+    }
+
+    ul {
+      padding-inline-start: 20px;
+    }
+
+    code {
+      padding: 0.1em 0.2em;
+      margin: 0;
+      font-family: 'Courier New', Courier, monospace;
+      white-space: break-spaces;
+      color: #05f13c;
+      background-color: #171717;
+      border-radius: 6px;
+    }
+
+    h1 img {
+      vertical-align: bottom;
+    }
+
+    #heading {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-block-end: 20px;
+      width: 100%;
+    }
+
+    #main {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+    }
+
+    #rightCol {
+      padding-left: 20px;
+    }
+
+    #leftCol,
+    #rightCol {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #leftCol p:first-child,
+    #rightCol p:first-child {
+      margin-top: 0%;
+    }
+
+    #leftCol h2:first-child,
+    #rightCol h2:first-child {
+      margin-top: 0%;
+    }
+
+    #leftCol h3:first-child,
+    #rightCol h3:first-child {
+      margin-top: 0%;
+    }
+
+    #rightCol .skills {
+      margin-bottom: 0%;
+    }
+
+    .footer {
+      display: flex;
+      color: #9D9D9D;
+      width: 100%;
+    }
+
+    @media (min-width: 980px) {
+      #main {
+        flex-direction: row;
       }
-    </style>
-  </head>
-  <body>
+    }
+  </style>
+</head>
+
+<body>
+  <div id="heading">
     <h1>David Gilson</h1>
-    <p>Senior Software Engineer | System Architect | Technical Leader<br/>
-    <i>Townsville, QLD, Australia</i>
-    <h2>Summary</h2>
-    <p><b>NOTE:</b> Work in progress!</p>
-    <p>
-      A seasoned Software Engineer with over two decades of experience in system architecture,
-      web-based applications, and back-end software development. I am known for my ability to
-      modernise legacy systems and implement innovative solutions, consistently delivering
-      high-impact results across multiple industries.
+    <p>Senior Software Engineer | System Architect | Technical Leader<br />
+      <i>Townsville, QLD, Australia</i>
     </p>
-    <p>
-      My persuasive communication skills enable me to effectively bridge technical and non-technical
-      gaps, optimising efficiency and enhancing user experience. With a strategic mindset and proven
-      leadership, I excel at navigating complex challenges and driving organisational success.
-    </p>
+  </div>
+  <div id="main">
+    <div id="leftCol">
+      <h2>Summary</h2>
+      <p><b>NOTE:</b> Work in progress!</p>
+      <p>
+        A seasoned Software Engineer with over two decades of experience in system architecture,
+        web-based applications, and back-end software development. I am known for my ability to
+        modernise legacy systems and implement innovative solutions, consistently delivering
+        high-impact results across multiple industries.
+      </p>
+      <p>
+        My persuasive communication skills enable me to effectively bridge technical and non-technical
+        gaps, optimising efficiency and enhancing user experience. With a strategic mindset and proven
+        leadership, I excel at navigating complex challenges and driving organisational success.
+      </p>
+      <h2>Examples</h2>
+      <p>These are upgrades of code I developed</p>
+      <ul>
+        <li><a href="CrimeBusters/" title="CrimeBusters Demo">Crime Busters Demo</a><br />
+          I developed to show maps of crimes reported to police. This was used in local
+          newspaper website.</li>
+        <li><a href="PropNav/" title="Property Navigator Demo">Property Navigator Demo</a><br />
+          Uses <code>XSLT</code> to search and transform, producing an <code>HTML</code> fragment that shows results in a <code class="html">&lt;table&gt;</code>.
 
-    <h2>Key Skills and Experience</h2>
-    <ul>
-      <li>
-        <b>Programming Languages</b>: HTML5, JavaScript, jQuery, AngularJS, Java, Ruby, C++, Visual
-        Basic, Visual C#, React, .NET Framework
-      </li>
-      <li>
-        <b>ICT</b>: Designed components, modules and interfaces, data to meet specified
-        requirements.
-      </li>
-      <li><b>Web Technologies</b>: ASP, ASP.NET, Web Services, XML, AJAX, API</li>
-      <li><b>Scripting</b>: Linux BASH Scripting, Windows PowerShell, Adobe InDesign</li>
-      <li><b>Agile methodologies</b>: TDD/BDD</li>
-      <li><b>Database</b>: MySQL, SQL, Microsoft Access</li>
-      <li><b>Version Control</b>: SVN, Git</li>
-      <li><b>Microsoft 365</b>: Word, Excel, Access, PowerPoint, VBA, Macros.</li>
-      <li><b>Documentation</b>: Created both support and end-user documentation.</li>
-      <li>
-        <b>Monitoring/Reporting</b>: Designing and implementing tests / alerts when required as well
-        as producing reports.
-      </li>
-      <li>
-        <b>Technical Support</b>: User Support, Troubleshooting, Computer Assembly, Repair &
-        Maintenance.
-      </li>
-      <li>
-        <b>Contract Negotiation</b>: I put together and shared estimates, requirements,
-        deliverables, and timelines, while also negotiating costs.
-      </li>
-      <li>
-        <b>Employee Reviews</b>: Conducted comprehensive reviews of employee performance, providing
-        constructive feedback, and identifying areas for improvement. Collaborated with management
-        to develop personalised development plans and ensure alignment with company goals.
-      </li>
-    </ul>
-    <h2>Examples</h2>
-    <a href="PropNav/" title="Property Navigator Demo">Property Navigator Demo</a><br />
-    <a href="CrimeBusters/" title="CrimeBusters Demo">Crime Busters Demo</a><br />
-    <a href="PlayGround/" title="My Playground">My Playground and Demos</a>
+            Data is stored in localStorage to save downloading, checks last time downloaded and redownloads every 24 hrs from last time.
+        </li>
+        <!--li><a href="PlayGround/" title="My Playground">My Playground and Demos</a></li-->
+      </ul>
+    </div>
+    <div id="rightCol">
+      <h3>Links</h3>
+      <div id="links">
+        <img src="icons/github.svg" alt="" />
+        <a target="_blank" rel="noopener" href="https://github.com/gilsonator">github/gilsonator</a>
+      </div>
+      <div id="links">
+        <img alt="" src="icons/linkedIn.svg" />
+        <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/gilsondave/">in/gilsondave</a>
+      </div>
+      <h3 class="skills">Key Skills and Experience</h3>
+      <p>With decades of experience in all ranges related to hardware and software development, support, and management roles:</p>
+      <ul>
+        <li>
+          <b>Programming Languages</b>: HTML5, JavaScript, jQuery, AngularJS, Java, Ruby, C++, Visual
+          Basic, Visual C#, React, .NET Framework
+        </li>
+        <li>
+          <b>ICT</b>: Designed components, modules and interfaces, data to meet specified
+          requirements.
+        </li>
+        <li><b>Web Technologies</b>: ASP, ASP.NET, Web Services, XML, AJAX, API</li>
+        <li><b>Scripting</b>: Linux BASH Scripting, Windows PowerShell, Adobe InDesign</li>
+        <li><b>Agile methodologies</b>: TDD/BDD</li>
+        <li><b>Database</b>: MySQL, SQL, Microsoft Access</li>
+        <li><b>Version Control</b>: SVN, Git</li>
+        <li><b>Microsoft 365</b>: Word, Excel, Access, PowerPoint, VBA, Macros.</li>
+        <li><b>Documentation</b>: Created both support and end-user documentation.</li>
+        <li>
+          <b>Monitoring/Reporting</b>: Designing and implementing tests / alerts when required as well
+          as producing reports.
+        </li>
+        <li>
+          <b>Technical Support</b>: User Support, Troubleshooting, Computer Assembly, Repair &
+          Maintenance.
+        </li>
+        <li>
+          <b>Contract Negotiation</b>: I put together and shared estimates, requirements,
+          deliverables, and timelines, while also negotiating costs.
+        </li>
+        <li>
+          <b>Employee Reviews</b>: Conducted comprehensive reviews of employee performance, providing
+          constructive feedback, and identifying areas for improvement. Collaborated with management
+          to develop personalised development plans and ensure alignment with company goals.
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer">&copy; 2024 David Gilson. All rights reserved.</div>
+</body>
 
-    <h3>Links</h3>
-    <div id="links">
-      <img src="icons/github.svg" alt="" />
-      <a target="_blank" rel="noopener" href="https://github.com/gilsonator">github/gilsonator</a>
-    </div>
-    <div id="links">
-      <img alt="" src="icons/linkedIn.svg" />
-      <a
-        target="_blank"
-        rel="noopener"
-        href="https://www.linkedin.com/in/gilsondave/"
-        >in/gilsondave</a
-      >
-    </div>
-    <p class="footer">&copy; 2024 David Gilson. All rights reserved.</p>
-  </body>
 </html>
