@@ -11,7 +11,7 @@
   <link rel="icon" type="png" href="icons/favicon.png" />
   <link rel="icon" type="png" href="icons/android-chrome-192x192.png" />
   <link rel="icon" type="png" href="icons/android-chrome-512x512.png" />
-  <link rel="icon" type="png" href="icons/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" type="png" href="icons/apple-touch-icon.png" />
   <link rel="icon" type="png" href="icons/favicon-16x16.png" />
   <link rel="icon" type="png" href="icons/favicon-32x32.png" />
 
@@ -46,8 +46,8 @@
       margin: 0;
       font-family: 'Courier New', Courier, monospace;
       white-space: break-spaces;
-      color: #05f13c;
-      background-color: #171717;
+      color: #62ACEA;
+      background-color: #242529;
       border-radius: 6px;
     }
 
@@ -89,6 +89,10 @@
       margin-top: 0%;
     }
 
+    h3 {
+      margin-bottom: 0%;
+    }
+
     #leftCol h3:first-child,
     #rightCol h3:first-child {
       margin-top: 0%;
@@ -108,6 +112,11 @@
       #main {
         flex-direction: row;
       }
+    }
+
+    ::selection {
+      color: white; /* Text color */
+      background: #4a4a4a; /* Background color */
     }
   </style>
 </head>
@@ -134,7 +143,7 @@
         gaps, optimising efficiency and enhancing user experience. With a strategic mindset and proven
         leadership, I excel at navigating complex challenges and driving organisational success.
       </p>
-      <h2>Examples</h2>
+      <h3>Examples</h3>
       <p>These are upgrades of code I developed</p>
       <ul>
         <li><a href="CrimeBusters/" title="CrimeBusters Demo">Crime Busters Demo</a><br />
