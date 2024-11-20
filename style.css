@@ -75,16 +75,15 @@ h3,
 h4 {
     margin-bottom: 0%;
 }
-
+/* DG: Commented out for Testing column margins
 h3+p {
     margin-bottom: 16px;
 }
 
-/*
-  #rightCol h3:first-child {
+#rightCol h3:first-child {
     margin-top: 0%;
-  }
-  */
+}
+*/
 #rightCol .skills {
     margin-bottom: 0%;
 }
